@@ -18,13 +18,13 @@ const store = new Vuex.Store({
                 size: 18,
                 color: 'red',
                 type: 'ios-alert',
-                text: '消防管理', // 点击侧边栏跳到一个单独的路由页面，需要提前在 router.js 定义
+                text: '管理', // 点击侧边栏跳到一个单独的路由页面，需要提前在 router.js 定义
             },
             {
                 name: 'labour',
                 size: 18,
                 type: 'ios-body',
-                text: '劳保用品',
+                text: '外部链接',
             },
         ],
     },

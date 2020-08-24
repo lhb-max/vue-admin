@@ -5,7 +5,7 @@
             <!-- logo -->
             <div class="logo-c">
                 <img src="../assets/imgs/bc.jpg" alt="logo" class="logo">
-                <span v-show="isShowAsideTitle">广州钢板安全管理</span>
+                <span v-show="isShowAsideTitle">后台管理</span>
             </div>
             <!-- 菜单栏 -->
             <Menu class="menu" ref="asideMenu" theme="dark" width="100%" @on-select="selectMenuCallback"
